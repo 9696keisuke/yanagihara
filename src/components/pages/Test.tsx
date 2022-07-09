@@ -98,10 +98,6 @@ const Test: React.FC = (props) => {
           width="1px"
           state={{ text: policyVinNo, setText: setPolicyVinNo }}
           margin="40px"
-        <Text>さんか</Text>
-        <CalenderArea>
-          <Calender dataType={dataType} />
-        </CalenderArea>
         />
         {/* <SearchButton onClick={search}>検索</SearchButton> */}
         <ButtonGroup color="primary" aria-label="outlined primary button group">
